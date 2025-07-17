@@ -1,0 +1,7 @@
+/home/nagini/lasuscreeningaggregator/build/CMakeFiles/lasu_screening_server.dir
+/home/nagini/lasuscreeningaggregator/build/CMakeFiles/edit_cache.dir
+/home/nagini/lasuscreeningaggregator/build/CMakeFiles/rebuild_cache.dir
+/home/nagini/lasuscreeningaggregator/build/CMakeFiles/list_install_components.dir
+/home/nagini/lasuscreeningaggregator/build/CMakeFiles/install.dir
+/home/nagini/lasuscreeningaggregator/build/CMakeFiles/install/local.dir
+/home/nagini/lasuscreeningaggregator/build/CMakeFiles/install/strip.dir
