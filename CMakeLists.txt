@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Threads REQUIRED)
 
 # Add executable
-add_executable(lasu_screening_server screen.cpp)
+add_executable(lasu_screening_server screen2.cpp)
 
 # Set C++ properties
 set_property(TARGET lasu_screening_server PROPERTY CXX_STANDARD 17)

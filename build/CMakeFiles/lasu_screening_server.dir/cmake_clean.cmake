@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lasu_screening_server.dir/screen.cpp.o"
-  "CMakeFiles/lasu_screening_server.dir/screen.cpp.o.d"
+  "CMakeFiles/lasu_screening_server.dir/screen2.cpp.o"
+  "CMakeFiles/lasu_screening_server.dir/screen2.cpp.o.d"
   "bin/lasu_screening_server"
   "bin/lasu_screening_server.pdb"
 )

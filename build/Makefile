@@ -174,29 +174,29 @@ lasu_screening_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasu_screening_server.dir/build.make CMakeFiles/lasu_screening_server.dir/build
 .PHONY : lasu_screening_server/fast
 
-screen.o: screen.cpp.o
-.PHONY : screen.o
+screen2.o: screen2.cpp.o
+.PHONY : screen2.o
 
 # target to build an object file
-screen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasu_screening_server.dir/build.make CMakeFiles/lasu_screening_server.dir/screen.cpp.o
-.PHONY : screen.cpp.o
+screen2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasu_screening_server.dir/build.make CMakeFiles/lasu_screening_server.dir/screen2.cpp.o
+.PHONY : screen2.cpp.o
 
-screen.i: screen.cpp.i
-.PHONY : screen.i
+screen2.i: screen2.cpp.i
+.PHONY : screen2.i
 
 # target to preprocess a source file
-screen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasu_screening_server.dir/build.make CMakeFiles/lasu_screening_server.dir/screen.cpp.i
-.PHONY : screen.cpp.i
+screen2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasu_screening_server.dir/build.make CMakeFiles/lasu_screening_server.dir/screen2.cpp.i
+.PHONY : screen2.cpp.i
 
-screen.s: screen.cpp.s
-.PHONY : screen.s
+screen2.s: screen2.cpp.s
+.PHONY : screen2.s
 
 # target to generate assembly for a file
-screen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasu_screening_server.dir/build.make CMakeFiles/lasu_screening_server.dir/screen.cpp.s
-.PHONY : screen.cpp.s
+screen2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasu_screening_server.dir/build.make CMakeFiles/lasu_screening_server.dir/screen2.cpp.s
+.PHONY : screen2.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... lasu_screening_server"
-	@echo "... screen.o"
-	@echo "... screen.i"
-	@echo "... screen.s"
+	@echo "... screen2.o"
+	@echo "... screen2.i"
+	@echo "... screen2.s"
 .PHONY : help
 
 

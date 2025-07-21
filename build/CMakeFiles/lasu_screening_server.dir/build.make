@@ -69,28 +69,28 @@ include CMakeFiles/lasu_screening_server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lasu_screening_server.dir/flags.make
 
-CMakeFiles/lasu_screening_server.dir/screen.cpp.o: CMakeFiles/lasu_screening_server.dir/flags.make
-CMakeFiles/lasu_screening_server.dir/screen.cpp.o: /home/nagini/lasuscreeningaggregator/screen.cpp
-CMakeFiles/lasu_screening_server.dir/screen.cpp.o: CMakeFiles/lasu_screening_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nagini/lasuscreeningaggregator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lasu_screening_server.dir/screen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lasu_screening_server.dir/screen.cpp.o -MF CMakeFiles/lasu_screening_server.dir/screen.cpp.o.d -o CMakeFiles/lasu_screening_server.dir/screen.cpp.o -c /home/nagini/lasuscreeningaggregator/screen.cpp
+CMakeFiles/lasu_screening_server.dir/screen2.cpp.o: CMakeFiles/lasu_screening_server.dir/flags.make
+CMakeFiles/lasu_screening_server.dir/screen2.cpp.o: /home/nagini/lasuscreeningaggregator/screen2.cpp
+CMakeFiles/lasu_screening_server.dir/screen2.cpp.o: CMakeFiles/lasu_screening_server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nagini/lasuscreeningaggregator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lasu_screening_server.dir/screen2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lasu_screening_server.dir/screen2.cpp.o -MF CMakeFiles/lasu_screening_server.dir/screen2.cpp.o.d -o CMakeFiles/lasu_screening_server.dir/screen2.cpp.o -c /home/nagini/lasuscreeningaggregator/screen2.cpp
 
-CMakeFiles/lasu_screening_server.dir/screen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lasu_screening_server.dir/screen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nagini/lasuscreeningaggregator/screen.cpp > CMakeFiles/lasu_screening_server.dir/screen.cpp.i
+CMakeFiles/lasu_screening_server.dir/screen2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lasu_screening_server.dir/screen2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nagini/lasuscreeningaggregator/screen2.cpp > CMakeFiles/lasu_screening_server.dir/screen2.cpp.i
 
-CMakeFiles/lasu_screening_server.dir/screen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lasu_screening_server.dir/screen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nagini/lasuscreeningaggregator/screen.cpp -o CMakeFiles/lasu_screening_server.dir/screen.cpp.s
+CMakeFiles/lasu_screening_server.dir/screen2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lasu_screening_server.dir/screen2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nagini/lasuscreeningaggregator/screen2.cpp -o CMakeFiles/lasu_screening_server.dir/screen2.cpp.s
 
 # Object files for target lasu_screening_server
 lasu_screening_server_OBJECTS = \
-"CMakeFiles/lasu_screening_server.dir/screen.cpp.o"
+"CMakeFiles/lasu_screening_server.dir/screen2.cpp.o"
 
 # External object files for target lasu_screening_server
 lasu_screening_server_EXTERNAL_OBJECTS =
 
-bin/lasu_screening_server: CMakeFiles/lasu_screening_server.dir/screen.cpp.o
+bin/lasu_screening_server: CMakeFiles/lasu_screening_server.dir/screen2.cpp.o
 bin/lasu_screening_server: CMakeFiles/lasu_screening_server.dir/build.make
 bin/lasu_screening_server: CMakeFiles/lasu_screening_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nagini/lasuscreeningaggregator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/lasu_screening_server"
